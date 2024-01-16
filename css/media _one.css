@@ -1,0 +1,17 @@
+@media(max-width:992px){
+    .tour_content ul {
+        margin-left: 20px;
+        display: none;
+      }
+      .newsletter_content_one {
+        padding: 0px 14px;
+      }
+      .discount {
+        right: 20px;
+        bottom: 125px;
+        width:200px;
+      }
+      .choose_content p {
+        font-size: 14px;}
+       
+}

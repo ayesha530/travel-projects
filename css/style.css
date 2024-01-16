@@ -18,6 +18,19 @@ h1,h2,h3,h4,h5,h6,p,ul{
 }
 .logo{
     width:20%;
+    display: flex;
+}
+.logo h2{
+  display: inline;
+  margin-left: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 5px;
+  font-size: 24px;
+}
+.agency{
+  color: #FF5400;
+  font-size: 24px;
 }
 .nav{
     width:50%;
@@ -62,6 +75,67 @@ nav ul li a{
     z-index: -1;
     border-radius: 16px;
 }
+.banner_content{width: 70%;margin: auto;}
+.banner_content h2{
+  color: #fff;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.banner_content p{
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form_content{
+  background: #ffffff63;
+  border-radius: 8px;
+  width: 320px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+.banner_form{
+  width: 340px;
+}
+.banner_form input{
+  display: inline;
+  color: #ddd;
+  width: 21%;
+  overflow: hidden;
+  padding: 8px 0px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 12px;
+  background: #fff;
+  border: 1px solid #f3f3f3;
+}
+.banner_button{
+  border-radius: 8px;
+  background: #FF5400 !important;
+  color: #fff !important;
+  border: 1px solid #FF5400 !important;
+  padding: 5px 10px;
+  text-transform: capitalize;
+}
+.banner_select{
+  display: inline;
+  color: #ddd;
+  padding: 5px 0px;
+  font-size: 12px;
+  background: #fff;
+  border: 1px solid #f3f3f3;
+}
+.banner_select_one{
+  display: inline;
+  color: #ddd;
+  padding: 5px 0px;
+  font-size: 12px;
+  background: #fff;
+  border: 1px solid #f3f3f3;
+}
 /* tour section start */
  .tour_section{
     width:80%;
@@ -99,6 +173,7 @@ nav ul li a{
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     line-height: 26px;
+    margin-bottom: 10px;
 }
 .para{
     color: #5A5A5D;
@@ -441,12 +516,12 @@ position: relative;
   border-radius: 8px;
   background: #FF5400;
   text-align: center;
-  width: 300px;
+  width: 250px;
   padding: 10px 0px;
   position: absolute;
-  right: 0;
-  bottom: 10px;
-  transform: translate3d(10px, 10px, 10px);
+  right: 25px;
+  bottom: 90px;
+  transform: rotate(-45deg);
 }
 .discount h3{
   color: #fff;
@@ -457,3 +532,63 @@ position: relative;
   font-size: 14px;
 }
 /* us section end */
+/* footer section start */
+   footer{
+    background-color: #f3f3f3;
+    margin-top:80px;
+   }
+   .footer_section{
+   
+text-align: center;
+   }
+   .footer_content{
+  
+width: 70%;
+  
+margin: auto;
+  
+}
+   .travel_content{
+    
+   }
+   .footer_travel_content{
+    display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+   
+   .footer_travel_content img{
+  margin-top: 50px;
+}
+.footer_travel_content h2{
+    margin-top: 55px;
+  margin-left: 15px;
+  text-transform: capitalize;
+}
+   .travel_content p{
+  color: #5A5A5D;
+  padding: 0px 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+   .travel_content ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+   .travel_content ul li{
+  margin-right: 10px;
+  font-size: 24px;
+}
+   .travel_content_two{
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding: 25px 0px;
+}
+   .travel_content_two p{
+  color: #131318;
+  font-size: 16px;
+}
+   
+/* footer section end */

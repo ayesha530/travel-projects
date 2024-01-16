@@ -8,13 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lato:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,100;0,200;0,900;1,100;1,200&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@100;200;300;500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,500;1,500&family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/media _one.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/all.min.css">    
 </head>
 <body>
    <header>
     <div class="header-content">
         <div class="logo">
-            <img src="images/Group 40071 (2).png" alt="">
+            <img src="images/Group 40071 (2).png" alt=""><h2>travel <span class="agency">agency</span></h2>
+            
         </div>
         <nav>
             <ul>
@@ -38,32 +42,34 @@
 
     </div>
    </header>
+   <!--banner content start-->
     <section class="banner">
          <div class="banner_content">
             <h2>Explore Your Travel</h2>
-            <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+            <p>Travel broadens your horizons, offering a unique opportunity to explore diverse cultures, cuisines, and landscapes. Whether it's a thrilling adventure or a tranquil retreat, each journey becomes a tapestry of memories that enriches the fabric of your life.</p>
             <div class="form_content">
-                <form action="">
+                <form action="" class="banner_form">
                     <input type="button" value="where go">
-                    <select name="" id=""><option>when go</option></select>
-                    <select name="" id=""><option>select type</option></select>
-                   <input type="search" name="" id="" placeholder="find now">
+                    <select name="" id="" class="banner_select"><option>when go</option></select>
+                    <select name="" id="" class="banner_select_one"><option>select type</option></select>
+                  <button class="banner_button"><i class="fa-solid fa-magnifying-glass-location"></i> find now</button>
                 </form>
             </div>
 
          </div>
     </section>
-
+    <!--banner content end-->
+     
     <!--tour section start-->
       <section class="tour_section">
          <div class="tour_banner">
             <div class="tour_content">
                 <h3>Our Popular Tours</h3>
-                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                <p>Popular tours often weave through iconic landmarks and historical sites, providing a curated experience that showcases the essence of a destination. From the majestic wonders of ancient civilizations to vibrant cityscapes, these tours offer a glimpse into the cultural tapestry that has captivated travelers for generations.</p>
                 <ul>
-                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
-                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
-                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                    <li>Embarking on a popular tour is a thrilling way to immerse yourself in the essence of a destination. From the bustling markets of Marrakech to the ancient ruins of Rome, these tours curate a seamless blend of cultural exploration and sightseeing.</li>
+                    <li>Expert guides unravel the rich history and significance behind each landmark, creating a narrative that brings the destination to life.</li>
+                    <li>Whether it's a panoramic view from a famous vantage point or an intimate encounter with local traditions, popular tours provide a curated and memorable journey for travelers seeking a well-rounded experience.</li>
                     
                 </ul>
                 <p class="para">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt.
@@ -130,13 +136,15 @@
       <section class="us_section">
          <div class="us_section_content">
              <h2>why choose us</h2>
-             <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+             <p>The act of choosing is an inherent expression of personal preferences, values, and priorities, shaping the trajectory of one's experiences and decisions.</p>
 
                <div class="hotel_content">
                   <div class="hotel">
                      <img src="images/hotel 1.svg">
                      <h2>Handpicked Hotels</h2>
-                     <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+                     <p>Choosing my hotel is crucial as it sets the tone for my travel experience, impacting my comfort, convenience, and overall enjoyment during my stay.</p>
+                        
+
                     
                   </div>
                
@@ -145,7 +153,7 @@
                 <div class="World">
                     <img src="images/map 1.svg">
                     <h2>World Class Service</h2>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+                    <p>Service is the heartbeat of hospitality, embodying the commitment to cater to the needs and satisfaction of customers with efficiency, warmth, and professionalism.</p>
                    
                  </div>
                 </div>
@@ -155,7 +163,8 @@
                 <div class="price">
                     <img src="images/price-tag 1.svg">
                     <h2>Best Price Guarantee</h2>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+                    <p>
+                        The Best Price Guarantee ensures peace of mind for consumers, promising that they will receive the most competitive rates for their purchases, instilling confidence in their decision to choose a particular product or service.</p>
                    
                  </div>
                  </div>
@@ -191,5 +200,33 @@
          </div>
       </section>
     <!--news letter section end-->
+    <!--footer section start-->
+      <footer>
+         <section class="footer_section">
+            <div class="footer_content">
+                <div class="travel_content">
+                     <div class="footer_travel_content">
+                        <img src="images/Group 40071 (2).png">
+                    <h2>travel <span class="agency">agency</span></h2>
+                     </div>
+                    <p>
+                        In the footer of a travel agency's website, essential information such as contact details, terms and conditions, and accreditation seals contribute to transparency and trust, ensuring customers have easy access to important details for a seamless booking experience.
+                    </p>
+                    <ul>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-square-instagram"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="travel_content_two">
+                <p>2024, All Rights Reserved.</p>
+            </div>
+         </section>
+      </footer>
+       
+    <!--footer section end-->
 </body>
 </html>
