@@ -1,0 +1,26 @@
+@media (min-width:300px) and (max-width:574px){
+    .deals_content_one {
+        display:block;
+    }
+    .simple_content h3 {
+        font-size: 25px;
+    }
+    .newsletter_content_one {
+        padding: 0px 0px;
+      }
+      .newsletter_content_one h2 {
+        font-size: 20px;
+        margin-left: 10px;
+      } 
+      .newsletter_content_one p{
+        font-size: 14px;
+        margin-left: 10px;
+      }
+      form input {
+        display: block;
+        width: 94%;
+        padding: 10px 8px;
+        font-size: 12px;
+    }
+
+}

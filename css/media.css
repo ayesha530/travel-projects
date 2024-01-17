@@ -1,138 +1,164 @@
 @media(max-width:575px){
-    .banner_content h2{
-        color: #fff;
-        text-align: center;
-        font-size: 22px;
-        font-weight: 800;
-        margin-bottom: 10px;
-      }
-     
-      .choose_content p {
-        font-size: 16px;
-        text-align: center;
-        color: rgba(19, 19, 24, 0.70);
-        margin-bottom: 20px;
-        padding:0;}
-        .tour_banner {
-            margin-top: 50px;
-            display: block;
+  .banner_content h2{
+      color: #fff;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+   
+    .choose_content p {
+      font-size: 16px;
+      text-align: center;
+      color: rgba(19, 19, 24, 0.70);
+      margin-bottom: 20px;
+      padding:0;}
+      .tour_banner {
+          margin-top: 50px;
+          display: block;
 
+      }
+      .tour_content {
+          width: 100%;
+          padding-right: 40px;
         }
-        .tour_content {
-            width: 100%;
-            padding-right: 40px;
-          }
-        .tour_btn{
-            margin-bottom: 15px;
-        }  
-        .tour_img
-        {
-            width: 100%;
-          }
-       .choose_content h2 { 
-        font-size: 22px;  
-       }
-       .choose_img_one {
-        display: block;
-        gap: 20px;
-      }
-      .img_maldives {
-        margin-bottom: 10px;
-      }
-      .choose_img_two {
-        display: block;
-        margin-bottom: 10px;
-      }
-      .choose_img_three {
-        display: block;
-        margin-bottom: 10px;
-      }
-      .hotel_content {
-        display: block;
-        gap: 10px;
-        margin-top: 10px;
-      }
-      .hotel_content_two {
-        width: 100%;
-      }
-      .newsletter_banner {
-       display: block;
-      }
-      .newsletter_content_one {
-        padding: 20px 10px;
-        width: 100%;
-        margin-bottom: 20px;
-      }
-      .newsletter_content_two {
-        width: 100%;
-       
-      }
-      .discount {
-        right: 15px;
-        bottom: 62px !important;
-        width:150px;
-      } 
-      .footer_content {
-        width:100%;
-        margin: auto;
-      }
-      .banner_form {
-        width: 200px;
-        margin: auto;
-      }
-      .form_content{
-        width: 250px;
-        padding: 0;
-      }
-      .banner_form input {
-        width:100%;
-        margin-top: 10px;
-      }
-      .banner_select {
-        width:100%;
-        display: block;
-      }
-      .banner_select_one {
-        width:100%;
-        display: block;
-        margin-top: 10px;
-      }
-      .navbar-toggler {
-        padding: 0.25rem 0.75rem;
-        font-size: 1.25rem;
-        line-height: 1;
-        background-color: transparent;
-        border: 1px solid transparent;
-        border-radius: 0.25rem;
-        transition: box-shadow .15s ease-in-out;
-      }
-      .toggle {
-        position: relative;
-        width: 30px;
-        height: 30px;
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-        overflow: hidden;
+      .tour_btn{
+          margin-bottom: 15px;
+      }  
+      .tour_img
+      {
+          width: 100%;
+        }
+     .choose_content h2 { 
+      font-size: 22px;  
+     }
+     .choose_img_one {
+      display: block;
+      gap: 20px;
     }
-    
-    .toggle span {
-        position: absolute;
-        width: 20px;
-        height: 3px;
-        background: #fff;
-        border-radius: 10px;
-        transition: 0.5s;
+    .img_maldives {
+      margin-bottom: 10px;
     }
-    
-    .banner_button {
-        width: 100%;
-       margin-top: 10px;
-       margin-bottom: 10px;
+    .choose_img_two {
+      display: block;
+      margin-bottom: 10px;
     }
-    header{
-        display: none;
+    .choose_img_three {
+      display: block;
+      margin-bottom: 10px;
     }
+    .hotel_content {
+      display: block;
+      gap: 10px;
+      margin-top: 10px;
     }
+    .hotel_content_two {
+      width: 100%;
+    }
+    .newsletter_banner {
+     display: block;
+    }
+    .newsletter_content_one {
+      padding: 20px 10px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .newsletter_content_two {
+      width: 100%;
+     
+    }
+    .discount {
+      right: 15px;
+      bottom: 62px !important;
+      width:150px;
+    } 
+    .footer_content {
+      width:100%;
+      margin: auto;
+    }
+    .banner_form {
+      width: 200px;
+      margin: auto;
+    }
+    .form_content{
+      width: 250px;
+      padding: 0;
+    }
+    .banner_form input {
+      width:100%;
+      margin-top: 10px;
+    }
+    .banner_select {
+      width:100%;
+      display: block;
+    }
+    .banner_select_one {
+      width:100%;
+      display: block;
+      margin-top: 10px;
+    }
+    .navbar-toggler {
+      padding: 0.25rem 0.75rem;
+      font-size: 1.25rem;
+      line-height: 1;
+      background-color: transparent;
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
+      transition: box-shadow .15s ease-in-out;
+    }
+    .toggle {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      overflow: hidden;
+  }
+  
+  .toggle span {
+      position: absolute;
+      width: 20px;
+      height: 3px;
+      background: #fff;
+      border-radius: 10px;
+      transition: 0.5s;
+  }
+  
+  .banner_button {
+      width: 100%;
+     margin-top: 10px;
+     margin-bottom: 10px;
+  }
+  header{
+      display: none;
+  }
+  .deals_content_one {
+    overflow:hidden;
+  }
+  .deals_content_two {
+    overflow: hidden;
+  }
+  .simple_banner {
+    margin-top: 50px;
+    display: block;
+
+}
+.simple_content {
+    width: 100%;
+    padding-right: 40px;
+  }
+.simple_btn{
+    margin-bottom: 15px;
+}  
+.simple_img
+{
+    width: 100%;
+  }
+ .simple_img h2 {
+  font-size: 26px;
+  left:55px;
+  }
+  }
