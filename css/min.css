@@ -22,5 +22,11 @@
         padding: 10px 8px;
         font-size: 12px;
     }
+    .deal_img_one{
+        display: none;
+    }
+    .deal_img_two{
+        display:none;
+    }
 
 }
