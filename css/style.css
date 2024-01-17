@@ -49,6 +49,8 @@ nav ul li a{
   font-size: 18px;
   color:#424247;
   font-weight: normal;
+  position: relative;
+  padding-bottom: 10px;
 }
 .banner {
   display: flex;
@@ -829,7 +831,36 @@ margin-right: 5px;
 .simple_border span{border: 3px solid #fff;display: block;width: 200px;position: absolute;bottom: 40px;left: 12px;}
 /* simple section end */
 
+nav ul li a::before{
+  content:   "";
+  position: absolute;
+  bottom:0%;
+  left:0;
+  width:0%;
+  height: 3px;
+  background-color: #FF5400;
+  transition: .2s ease-in-out;
 
+}
+nav ul li a:hover::before{
+  width:45%;
+ 
+}   
+nav ul li a::after{
+  content:   "";
+  position: absolute;
+  bottom:0%;
+  right:0;
+  width:0%;
+  height: 3px;
+  background-color: #FF5400;
+   transition: .2s ease-in-out;
+
+}
+nav ul li a:hover::after{
+  width:45%;
+ 
+}
 
 
 
